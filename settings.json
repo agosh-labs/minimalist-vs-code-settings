@@ -1,0 +1,186 @@
+{
+	// Appearance settings
+	"editor.bracketPairColorization.enabled": false,
+	"editor.glyphMargin": false,
+	"workbench.productIconTheme": "fluent-icons",
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"window.density.editorTabHeight": "compact",
+	"editor.accessibilitySupport": "off",
+	"symbols.hidesExplorerArrows": false,
+	"workbench.iconTheme": "quill-icons",
+	"workbench.activityBar.location": "hidden",
+	"workbench.layoutControl.enabled": false,
+	"workbench.editor.editorActionsLocation": "hidden",
+	"workbench.editor.empty.hint": "hidden",
+	"window.zoomLevel": 0,
+
+	// General settings
+	"window.openFilesInNewWindow": "off",
+	"editor.tabSize": 2,
+	"editor.folding": false,
+	"editor.insertSpaces": false,
+	"editor.smoothScrolling": true,
+	"editor.minimap.enabled": false,
+	"editor.detectIndentation": true,
+	"editor.linkedEditing": true,
+	"editor.renderControlCharacters": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.suggestSelection": "first",
+	"html.completion.attributeDefaultValue": "singlequotes",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"git.enableSmartCommit": true,
+	"editor.stickyScroll.enabled": false,
+	"workbench.tree.enableStickyScroll": false,
+	"window.commandCenter": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"window.confirmBeforeClose": "keyboardOnly",
+	"git.openRepositoryInParentFolders": "never",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"workbench.statusBar.visible": false,
+
+	// Word wrap settings
+	"editor.wordWrap": "bounded",
+	"editor.wrappingIndent": "same",
+	"editor.wordWrapColumn": 80,
+	"editor.scrollBeyondLastLine": true,
+
+	// Tag auto close
+	"html.autoClosingTags": true,
+	"javascript.autoClosingTags": true,
+	"typescript.autoClosingTags": true,
+
+	// Font settings
+	"editor.fontSize": 12,
+	"editor.lineHeight": 18,
+	"editor.fontWeight": "400",
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "PragmataPro Mono Liga, JetBrains Mono, Maple Mono, Cascadia Code, IBM Plex Mono, MonoLisa, Ubuntu Mono, Geist Mono, Fira Code iScript, DejaVu Sans Mono, Fira Code, Sarala, monospace",
+	"editor.inlayHints.fontFamily": "PragmataPro",
+	"chat.editor.fontFamily": "PragmataPro",
+	"editor.codeLensFontFamily": "PragmataPro",
+	"debug.console.fontFamily": "PragmataPro",
+
+	// Cursor settings
+	"editor.cursorBlinking": "phase",
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorSmoothCaretAnimation": "explicit",
+	"editor.hideCursorInOverviewRuler": true,
+
+	// Syntax highlighting settings
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": [
+					"comment",
+					"entity.name.type.class",
+					"keyword",
+					"constant",
+					"storage.modifier",
+					"storage.type.class.js"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"scope": [
+					"invalid",
+					"keyword.operator",
+					"constant.numeric.css",
+					"keyword.other.unit.px.css",
+					"constant.numeric.decimal.js",
+					"constant.numeric.json"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			}
+		]
+	},
+
+	// Terminal settings
+	"terminal.integrated.fontFamily": "PragmataPro Liga",
+	"terminal.integrated.fontSize": 13,
+	"terminal.integrated.tabs.enabled": false,
+	"terminal.integrated.cursorStyle": "line",
+
+	// Explorer settings
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.compactFolders": false,
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.startupEditor": "newUntitledFile",
+
+	// Debug settings
+	"debug.toolBarLocation": "hidden",
+	"debug.focusWindowOnBreak": false,
+	"debug.showInlineBreakpointCandidates": false,
+	"debug.showBreakpointsInOverviewRuler": false,
+
+	// Emmet settings
+	"emmet.includeLanguages": {
+		"blade": "html",
+		"javascript": "javascriptreact"
+	},
+	"emmet.triggerExpansionOnTab": true,
+
+	// Formatting settings
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"editor.formatOnSave": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.arrowParens": "avoid",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.inlineSuggest.enabled": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	// Breadcrumb settings
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.symbolPath": "off",
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showConstructors": false,
+
+	// JS TS settings
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.quoteStyle": "single",
+	"javascript.preferences.quoteStyle": "single",
+	"javascript.format.semicolons": "remove",
+	"typescript.format.semicolons": "remove",
+	"js/ts.implicitProjectConfig.experimentalDecorators": true,
+
+	// Excluded file types settings
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"**/.expo": true,
+		"**/.expo-shared": true,
+		"**/.idea": true,
+		"**/.nuxt": true
+	}
+}
