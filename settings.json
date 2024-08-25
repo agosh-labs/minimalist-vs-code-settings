@@ -39,6 +39,7 @@
 	"git.openRepositoryInParentFolders": "never",
 	"editor.gotoLocation.multipleDefinitions": "goto",
 	"workbench.statusBar.visible": false,
+	"editor.selectionHighlight": false,
 
 	// Word wrap settings
 	"editor.wordWrap": "bounded",
@@ -102,6 +103,7 @@
 
 	// Terminal settings
 	"terminal.integrated.fontFamily": "PragmataPro Liga",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	"terminal.integrated.fontSize": 13,
 	"terminal.integrated.tabs.enabled": false,
 	"terminal.integrated.cursorStyle": "line",
@@ -136,12 +138,30 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.inlineSuggest.enabled": true,
 	"editor.codeActionsOnSave": {
-		"source.organizeImports": "explicit"
+		"source.organizeImports": "explicit",
+		"source.sortImports": "explicit",
+		"source.fixAll.markdownlint": "explicit",
+		"source.addMissingImports": "explicit"
 	},
 	"[prisma]": {
 		"editor.defaultFormatter": "Prisma.prisma"
 	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 
